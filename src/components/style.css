@@ -1,0 +1,66 @@
+.mainwrapper {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.result-typo {
+  font-weight: 600 !important;
+  margin-top: 10px !important;
+}
+.error-typo {
+  font-weight: 600 !important;
+  color: red;
+  font-size: 14px !important;
+  margin-top: 14px !important;
+}
+
+.cal-wrap{
+    border: 1px solid;
+    height: 100%;
+    padding: 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #dbdbdb;
+    margin: 60px auto 0px;
+    .MuiInputBase-input{
+        width: 300px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    .MuiInputBase-input:disabled{
+        color: #000;
+    }
+    .MuiInputBase-root{
+        margin-bottom: 20px;
+    }
+}
+
+.number-wrap{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #bdbdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    
+}
+.number-wrap:hover{
+    box-shadow: 0 0 10px #737272;
+}
