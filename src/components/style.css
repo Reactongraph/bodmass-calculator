@@ -5,7 +5,7 @@
   justify-content: end;
   align-items: end;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .wrapper {
@@ -35,7 +35,7 @@
     border-radius: 10px;
     justify-content: center;
     background-color: #dbdbdb;
-    margin: 60px auto 0px;
+    margin: 30px auto 0px;
     .MuiInputBase-input{
         width: 300px;
         background-color: #fff;
